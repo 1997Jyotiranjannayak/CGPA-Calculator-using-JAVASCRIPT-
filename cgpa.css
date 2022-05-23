@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+  background-image: linear-gradient(90deg, #0BA0E3 ,#BBC2C8);
+  color: white;
+}
+
+#course-row {
+  font-size: 20px;
+  font-weight: bolder; 
+  margin-left: -2%;
+}
+
+#credit-row {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 13%;
+}
+
+#grade-row {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 8%;
+}
+
+.calculator-box {
+  width: 50%;
+  height: auto;
+  border: 2px solid #3D515C;
+  margin: 100px auto;
+/*  text-align: center; */
+}
+
+
+/* On screens that are 1200px or less, set the width to 75% */
+@media screen and (max-width: 1200px) {
+ .calculator-box {
+    width: 70%;
+  }
+}
+
+/* On screens that are 950px or less, set the width to 75% */
+@media screen and (max-width: 950px) {
+ .calculator-box {
+    width: 75%;
+  }
+}
+
+/* On screens that are 600px or less, set the width to 90% */
+@media screen and (max-width: 600px) {
+ .calculator-box {
+    width: 90%;
+  }
+}
+
+
+h1 {
+  padding: 15px;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid #3D515C;
+  background-color: #3D515C;
+}
+
+h1:hover {
+  padding: 15px;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid #3D515C;
+  background-color: #ccc;
+  color: #000;
+}
+
+p{
+  padding: 20px;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+}
+ 
+#course-wrapper, form {
+  color: black;
+  padding-left: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+input{
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+}
+select{
+  padding: 15px;
+  border: none;
+  border-radius: 7.5px;
+  width: 20%;
+/*   height: 30px; */
+}
+ button {
+  width: 15%;
+  height: 40px;
+  padding: 1px;
+  margin: 5px auto;
+/*   margin-left: 10px; */
+  border-width: 3px;
+  border-radius: 10%;
+  border-style: solid;
+}
+
+ button:hover {
+  width: 15%;
+  height: 40px;
+  padding: 1px;
+  margin: 5px auto;
+  border-width: 3px;
+  border-radius: 10%;
+  border-style: solid;
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+.lastp {
+  border: 1px solid #3D515C;
+  background-color: #3D515C;
+}
+.lastp p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+} 
+
+.lastp p:hover {
+  background-color: #ccc;
+  color: #000;
+} 
+

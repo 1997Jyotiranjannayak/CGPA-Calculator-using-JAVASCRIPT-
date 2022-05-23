@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>
+    OUTR CGPA CALCULATOR
+  </title>
+  <link rel="stylesheet" href="cgpa.css">
+  </head>
+  <body>
+      <div class="calculator-box">
+        <h1>CGPA CALCULATOR</h1>
+        <p>
+          This CGPA Calculator is based on the Odisha University Of Technology and Research  grading
+          system.
+        </p>
+
+        <div id="course-wrapper">
+          <form class="key-0">
+            <p> <label id="course-row" for="courses">Courses:</label> 
+             <label id="credit-row" for="credit-units">Credit Units:</label>
+           <label id="grade-row" for="grade">Grades: </label></p>
+              <input
+                type="text"
+                placeholder="Course Code"
+                class="courses key-0"
+                required/>
+<!--               <label for="credit-units">Credit Units:</label> -->
+              <input
+                type="number"
+                class="credit-units key-0"
+                placeholder="Credit Units"
+                value=""
+                required
+              />
+<!--               <label for="grade">Grade: </label> -->
+              <select class="grade key-0" required>
+                <option class="grade" value="select">Select</option>
+                <option class="grade" value="5">A</option>
+                <option class="grade" value="4">B</option>
+                <option class="grade" value="3">C</option>
+                <option class="grade" value="2">D</option>
+                <option class="grade" value="1">E</option>
+                <option class="grade" value="0">F</option>
+              </select>
+          </form>
+        </div>
+        <!-- <section class"btn">+ Add Course</section> -->
+        <div class="btn">
+          <button onclick="addCourse()">+ Add Course</button>
+          <button onclick="removeCourse()">- Remove Course</button>
+          <button onclick="calcCgpa()">Calculate CGPA</button>
+        </div>
+        <div class="lastp">
+          <p id="cgpa-calc">Your CGPA is:</p>
+        </div>
+      </div>
+      <script src="cgpa.js">  </script>
+    </body>
+      </html>
